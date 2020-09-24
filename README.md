@@ -2,7 +2,8 @@
 
 Nama : Darin Zahira Aflah
 
-Kelas: 3E
-Absen: 09
+Kelas/Absen : 3E/09
+
 NIM  : 1841720033
+
 Prodi: D-IV Teknik Informatika

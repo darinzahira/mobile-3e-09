@@ -85,7 +85,7 @@ public class MainActivity extends AppCompatActivity {
      */
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        switch (item.getItemId()){
+        switch (item.getItemId()) {
             case R.id.action_order:
                 displayToast(getString(R.string.action_order_message));
                 return true;

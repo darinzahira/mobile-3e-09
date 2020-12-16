@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="General">
+
+            <menu>
+                <item
+                    android:id="@+id/home"
+                    android:icon="@drawable/ic_baseline_home_24"
+                    android:title="Beranda"/>
+                <item
+                    android:id="@+id/nav_log"
+                    android:icon="@drawable/nav_dashboard"
+                    android:title="Log Aktivitas" />
+                <item
+                    android:id="@+id/nav_produk"
+                    android:icon="@drawable/barcode1"
+                    android:title="Produk" />
+                <item
+                    android:id="@+id/nav_masuk"
+                    android:icon="@drawable/logistics1"
+                    android:title="Produk Masuk" />
+                <item
+                    android:id="@+id/nav_keluar"
+                    android:icon="@drawable/boxes1"
+                    android:title="Produk Keluar" />
+            </menu>
+
+        </item>
+
+    </group>
+
+    <group android:checkableBehavior="single">
+
+        <item android:title="Information">
+
+            <menu>
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/user"
+                    android:title="Profile" />
+                <item
+                    android:id="@+id/nav_about"
+                    android:icon="@drawable/about"
+                    android:title="About" />
+
+            </menu>
+        </item>
+    </group>
+
+</menu>
